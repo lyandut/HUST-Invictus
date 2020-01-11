@@ -1,0 +1,19 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Release",
+      "generator": "Ninja",
+      "configurationType": "RelWithDebInfo",
+      "inheritEnvironments": [
+        "msvc_x64_x64"
+      ],
+      //"buildRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\build\\${name}",
+      "buildRoot": "${workspaceRoot}\\cmake-build-vs",
+      //"buildRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\build\\${name}",
+      "installRoot": "${workspaceRoot}\\cmake-build-vs",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": ""
+    }
+  ]
+}
