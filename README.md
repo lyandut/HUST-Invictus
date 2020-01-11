@@ -16,6 +16,30 @@
 
 
 
+# 如果你想。。。
+
+## 下载
+
+> 本仓库已启用`git-lfs`，但也不要大量上传单个超过100M的文件，除非你很熟练:new_moon_with_face:
+
+若要下载单个文件夹，复制该文件夹的网址，粘贴入[DownGit](https://minhaskamal.github.io/DownGit/#/home)中，选择download即可。
+
+
+
+## PR
+
+由于本项目体积很大，故推荐采用在 **GitHub Web 端直接上传** 的方式，具体操作如下：
+
+1. 首先 Fork 本项目
+2. 上传文件
+   - 上传文件到已有文件夹：打开对应文件夹，点击绿色 Download 按钮旁的 upload，上传你的文件。
+   - 上传文件到新文件夹：打开任意文件夹，点击绿色 Download 按钮旁的 upload，**把浏览器地址栏中文件夹名称改为你想要新建的文件夹名称，然后回车**，上传你的文件。
+3. 提交 PR
+   - 上传完文件到个人仓库之后，点击 `Pull Request` 即可。请留意一下项目的文件组织。
+   - 也可以直接附加在 **Issue** 中，由[维护者](lyan_dut@outlook.com)进行添加。
+
+
+
 # Related Works
 
 - [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)
