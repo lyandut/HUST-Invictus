@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Paxos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{0d7f03ca-eecc-4236-9c69-e22d881ed0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Paxos\Header Files">
+      <UniqueIdentifier>{ee7c5320-de40-44c7-82f7-bc0d50c45644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Paxos\Source Files">
+      <UniqueIdentifier>{11b38e0b-3118-420b-8462-ccb43a43f28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{c92bff7b-7645-49bd-a5bd-e743c89bc73f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Paxos\src\lib\atom.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paxos\src\lib\Executor.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paxos\src\lib\Lock.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paxos\src\lib\Logger.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paxos\src\lib\mapi.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paxos\src\lib\Task.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paxos\src\lib\Thread.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paxos\src\Paxos.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paxos\src\Paxos\Acceptor.cpp">
+      <Filter>Paxos\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paxos\src\Paxos\Proposer.cpp">
+      <Filter>Paxos\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Paxos\src\lib\atom.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paxos\src\lib\Executor.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paxos\src\lib\FixLengthInt.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paxos\src\lib\Lock.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paxos\src\lib\Logger.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paxos\src\lib\mapi.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paxos\src\lib\Task.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paxos\src\lib\Thread.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paxos\src\Paxos\Acceptor.h">
+      <Filter>Paxos\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paxos\src\Paxos\PaxosData.h">
+      <Filter>Paxos\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paxos\src\Paxos\Proposer.h">
+      <Filter>Paxos\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
